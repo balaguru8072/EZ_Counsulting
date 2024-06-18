@@ -3,12 +3,14 @@ import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
 import BreadcrumbOne from "../../elements/breadcrumb/BreadcrumbOne";
 import BlogProp from './itemProp/BlogProp';
+import HeaderTopBar from '../../common/header/HeaderTopBar';
 
 
 const BlogGridView = () => {
     return (
         <>
             <SEO title="Blog List || Doob - React Business  Template" />
+            <HeaderTopBar />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

@@ -11,12 +11,15 @@ import CounterUpFour from "../elements/counterup/CounterUpFour";
 import TeamFour from "../elements/team/TeamFour";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
+import HeaderTopBar from '../common/header/HeaderTopBar';
 
 const AboutUs = () => {
     const images = "https://doob.rainbowit.net/images/about/contact-image.jpg"
     return (
         <>
             <SEO title="About Us" />
+            <HeaderTopBar />
+
             <main className="page-wrapper">
                 {/* <HeaderTopNews /> */}
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />

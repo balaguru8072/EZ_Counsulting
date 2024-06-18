@@ -17,7 +17,7 @@ const AdvanceTabTwo = () => {
                                     </div>
                                 </div>
                             </TabPanel>
-                            
+
                             <TabPanel>
                                 <div className="tab-content">
                                     <div className="inner">
@@ -46,24 +46,24 @@ const AdvanceTabTwo = () => {
                                     <div className="tab-button">
                                         <h4 className="title">Market Researce.</h4>
                                         <p className="description">Use  EZ consulting template you can build a corporate website a short time.</p>
-                                    </div>   
+                                    </div>
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
                                         <h4 className="title">Corporate Report.</h4>
                                         <p className="description">Use  EZ consulting template you can build a corporate website a short time.</p>
-                                    </div>   
+                                    </div>
                                 </Tab>
                                 <Tab>
                                     <div className="tab-button">
                                         <h4 className="title">App Development.</h4>
                                         <p className="description">Use  EZ consulting template you can build a corporate website a short time.</p>
-                                    </div>   
+                                    </div>
                                 </Tab>
                             </TabList>
                         </div>
                     </div>
-                    
+
                 </div>
             </Tabs>
         </div>

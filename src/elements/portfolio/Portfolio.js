@@ -4,6 +4,7 @@ import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import PortfolioOne from "./PortfolioOne";
+import HeaderTopBar from '../../common/header/HeaderTopBar';
 
 
 
@@ -12,6 +13,8 @@ const Portfolio = () => {
     return (
         <>
             <SEO title="Portfolio || Doob - React Business  Template" />
+            <HeaderTopBar />
+
             <Layout>
 
                 <BreadcrumbOne 

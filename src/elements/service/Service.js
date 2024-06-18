@@ -12,12 +12,15 @@ import ServiceFour from "./ServiceFour";
 import ServiceFive from "./ServiceFive";
 import Separator from "../separator/Separator";
 import "../../assets/css/Servicess.css"
+import HeaderTopBar from '../../common/header/HeaderTopBar';
 
 const Service = () => {
     return (
         <>
 
             <SEO title="Service || Doob - React Business  Template" />
+            <HeaderTopBar />
+
             <Layout>
                 <BreadcrumbOne
                     title="Navigate the complexities of your IT ecosystem with confidence. Our technical experts and technology specialists are equipped with partner certifications, industry knowledge and deep expertise to guide you along the way"

@@ -8,11 +8,14 @@ import TeamOne from "./TeamOne";
 import TeamTwo from "./TeamTwo";
 import TeamThree from "./TeamThree";
 import TeamFour from "./TeamFour";
+import HeaderTopBar from '../../common/header/HeaderTopBar';
 
 const Team = () => {
     return (
         <>
             <SEO title="Team || Doob - React Business  Template" />
+            <HeaderTopBar />
+
             <Layout>
                 <BreadcrumbOne 
                     title="We collaborate with industry-leading partners to deliver cutting-edge IT solutions, ensuring maximum value and innovation for our clients"
