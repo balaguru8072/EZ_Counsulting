@@ -4,6 +4,7 @@ import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import ContactOne from "./ContactOne";
+import "../../assets/css/Contact.css"
 
 const Contact = () => {
     return (
@@ -29,6 +30,32 @@ const Contact = () => {
                                         title="Our Contact Address Here."
                                         description=""
                                     />
+                                </div>
+                            </div>
+                            <div className="container containeres">
+                                <div className="card">
+                                    <img src="/path/to/client-experience-icon.png" alt="Client Experience Icon" />
+                                    <h2>Client experience</h2>
+                                    <p>Serve your customers better with the right IT infrastructure, hardware, software and applications.</p>
+                                    <a href="#">Learn more →</a>
+                                </div>
+                                <div className="card">
+                                    <img src="/path/to/grow-revenue-icon.png" alt="Grow Revenue Icon" />
+                                    <h2>Grow revenue</h2>
+                                    <p>Take a proactive stance with business intelligence, predictive modeling and data analysis that give you an edge.</p>
+                                    <a href="#">Learn more →</a>
+                                </div>
+                                <div className="card">
+                                    <img src="/path/to/manage-cost-icon.png" alt="Manage Cost Icon" />
+                                    <h2>Manage cost</h2>
+                                    <p>Optimize your technology investments across data center, cloud, hardware and software assets.</p>
+                                    <a href="#">Learn more →</a>
+                                </div>
+                                <div className="card">
+                                    <img src="/path/to/mitigate-risk-icon.png" alt="Mitigate Risk Icon" />
+                                    <h2>Mitigate risk</h2>
+                                    <p>Protect your data, systems, users and customers against a rapidly evolving landscape of threats.</p>
+                                    <a href="#">Learn more →</a>
                                 </div>
                             </div>
                             <ContactOne />
