@@ -2,7 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoins, faPlane, faStore, faCar } from '@fortawesome/free-solid-svg-icons';
-import "../../assets/css/Whoweare.css"
+import "../../assets/css/Whoweare.css";
+import Sales_img from "../../assets/images/EZ Consulting who we are Icons/sales.png";
+import Finance_img from "../../assets/images/EZ Consulting who we are Icons/Finance.png";
+import SupplyChin_img from "../../assets/images/EZ Consulting who we are Icons/Supply chain.png";
+import HR_img from "../../assets/images/EZ Consulting who we are Icons/HR.png"
 
 function WhoweareThree() {
     return (
@@ -49,25 +53,25 @@ function WhoweareThree() {
                 <Row className="text-center">
                     <Col xs={12} md={3} className="functional-col" style={{ backgroundColor: "rgb(255, 244, 209)", borderTopLeftRadius: "378px", borderTopRightRadius: "366px", height: "100vh" }}>
                         <div className="icon-container" style={{ marginTop: "105px", width: "60%" }}>
-                            <img src="/path/to/sales-icon.png" alt="Sales" />
+                            <img src={Sales_img} alt="Sales" style={{padding: "19px"}}/>
                         </div>
                         <h3>SALES</h3>
                     </Col>
                     <Col xs={12} md={3} className="functional-col" style={{ backgroundColor: "#D7D98A", borderTopLeftRadius: "378px", borderTopRightRadius: "366px", height: "100vh" }}>
                         <div className="icon-container" style={{ marginTop: "105px", width: "60%" }}>
-                            <img src="/path/to/finance-icon.png" alt="Finance" />
+                            <img src={Finance_img} alt="Finance" style={{padding: "22px"}}/>
                         </div>
                         <h3>FINANCE</h3>
                     </Col>
                     <Col xs={12} md={3} className="functional-col" style={{ backgroundColor: "#D3EDEA", borderTopLeftRadius: "378px", borderTopRightRadius: "366px", height: "100vh" }}>
                         <div className="icon-container" style={{ marginTop: "105px", width: "60%" }}>
-                            <img src="/path/to/supply-chain-icon.png" alt="Supply Chain" />
+                            <img src={SupplyChin_img} alt="Supply Chain" style={{padding: "16px"}}/>
                         </div>
                         <h3>SUPPLY CHAIN</h3>
                     </Col>
                     <Col xs={12} md={3} className="functional-col" style={{ backgroundColor: "#FFFAC8", borderTopLeftRadius: "378px", borderTopRightRadius: "366px", height: "100vh" }}>
                         <div className="icon-container" style={{ marginTop: "105px", width: "60%" }}>
-                            <img src="/path/to/hr-icon.png" alt="HR" />
+                            <img src={HR_img} alt="HR" style={{padding: "16px"}}/>
                         </div>
                         <h3>HR</h3>
                     </Col>

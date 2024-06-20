@@ -72,6 +72,8 @@ import Error from "./pages/Error";
 import './assets/scss/style.scss';
 import WhatWedo from './pages/WhatWedo';
 import WhoweareMain from './pages/WhoweareMain';
+import WhatwedoMain from './pages/WhatwedoMain';
+import Insights from './pages/Insights';
 
 
 const App = () => {
@@ -80,7 +82,10 @@ const App = () => {
             <PageScrollTop>
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={Consulting}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/WhatwedoMain"}`} exact component={WhatwedoMain}/>
                     <Route path={`${process.env.PUBLIC_URL + "/WhoweareMain"}`} exact component={WhoweareMain}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/Insights"}`} exact component={Insights}/>
+
                     {/* <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>
                     <Route path={`${process.env.PUBLIC_URL + "/corporate"}`} exact component={Corporate}/>

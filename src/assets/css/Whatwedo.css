@@ -1,0 +1,39 @@
+.outcome-box {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.outcome-box:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 50px;
+    color: #007bff;
+}
+
+/* .case-study {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 10px;
+} */
+
+.case-study-button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.case-study h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.case-study p {
+    font-size: 16px;
+    color: #6c757d;
+}

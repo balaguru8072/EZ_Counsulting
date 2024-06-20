@@ -28,7 +28,7 @@ const Nav = () => {
                 </ul> */}
             </li>
 
-            <li><Link to="/whatwedo">WHAT WE DO</Link></li>
+            <li><Link to="/WhatwedoMain">WHAT WE DO</Link></li>
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
@@ -99,7 +99,7 @@ const Nav = () => {
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul> */}
             </li>
-            <li className="has-droupdown"><Link to="/service">INSIGHITS</Link>
+            <li className="has-droupdown"><Link to="/Insights">INSIGHITS</Link>
             </li>
             {/* <li className="has-droupdown"><Link to="/team">Team</Link> */}
             {/* <ul className="submenu">

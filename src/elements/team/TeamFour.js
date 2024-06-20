@@ -3,10 +3,14 @@ import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import VideoTwo from '../video/VideoTwo';
+import consulting_img from "../../assets/images/home page/5.png";
+import newstartup_img from "../../assets/images/home page/9.png";
+import freelence_img from "../../assets/images/home page/8.png";
+import dentists_img from "../../assets/images/home page/7.png"
 
 const teamData = [
     {
-        image: 'team-dark-01',
+        image: consulting_img,
         name: 'CONSULTANTS',
         // designation: 'Sr Product Designer',
         // location: 'CO Miego, AD, USA', 
@@ -28,7 +32,7 @@ const teamData = [
 
     },
     {
-        image: 'team-dark-02',
+        image: newstartup_img,
         name: 'NEW START UP',
         // designation: 'Manager',
         // location: 'Bangladesh', 
@@ -49,7 +53,7 @@ const teamData = [
 
     },
     {
-        image: 'team-dark-03',
+        image: freelence_img,
         name: 'FREELANCE CONTRACTORS ',
         // designation: 'Software Developer',
         // location: 'Poland', 
@@ -71,7 +75,7 @@ const teamData = [
 
     },
     {
-        image: 'team-dark-04',
+        image: dentists_img,
         name: 'DENTISTS & PHARMACISTS',
         // designation: 'Accounts Manager',
         // location: 'Poland', 
@@ -107,7 +111,7 @@ const TeamFour = ({ column, teamStyle }) => {
                         <div className={`rn-team ${teamStyle}`}>
                             <div className="inner">
                                 <figure className="thumbnail video-btn">
-                                    <img src={`./images/team/${data.image}.jpg`} className='video-btn' alt="Corporate React Template" />
+                                    <img src={data.image} className='video-btn' alt="Corporate React Template" />
                                     
                                         {/* <div className="video-btn" key={data.id}>
                                             <VideoTwo imagename={`${data.image}`} galleryItem={data} />

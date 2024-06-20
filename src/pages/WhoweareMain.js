@@ -31,11 +31,11 @@ function WhoweareMain() {
                 <Separator />
                 <WhoweareThree />
                 <Separator />
-                <Whowearefour />
+                {/* <Whowearefour /> */}
                 <Separator />
                 <WhoweareFive />
                 <Separator />
-                <WhoweareSix />
+                {/* <WhoweareSix /> */}
                 <Separator />
                 <div className="container mt-5">
                     <div className="row mt-3">

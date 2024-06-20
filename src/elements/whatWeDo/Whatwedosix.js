@@ -1,0 +1,60 @@
+import React from 'react';
+import "../../assets/css/Servicess.css"
+import consulting_img from "../../assets/images/EZ Consulting What we do Page Images/Our Service.png"
+
+
+function Whatwedosix() {
+    return (
+        <div>
+            <div className='text-center'>
+                <p style={{ color: "blue", fontSize: "33px", fontWeight: "900" }}>We help clients drive digital transformation.</p>
+                <p style={{ fontSize: "18px" }}>With us, you get access to deep expertise, broad capabilities and
+                    unmatched scale as a leading Solutions Integrator.</p>
+            </div>
+            <div className="container text-center my-5">
+                {/* <h2 className="mb-5">WHAT BUSINESS OUTCOMES ARE YOU LOOKING TO ADDRESS?</h2> */}
+                <div className="row mb-4">
+                    <div className="col">
+                        <button className="btn btn-warning mx-2" style={{ padding: "16px", fontSize: "13px", fontWeight: "900" }}>ADAPTIVE
+                            CONSULTING</button>
+                    </div>
+                    <div className="col">
+                        <button className="btn btn-warning mx-2" style={{ padding: "16px", fontSize: "13px", fontWeight: "900" }}>DATA SERVICES</button>
+                    </div>
+                    <div className="col">
+                        <button className="btn btn-warning mx-2" style={{ padding: "6px", fontSize: "13px", fontWeight: "900" }}>INTEGRATION
+                            CONSULTING
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button className="btn btn-warning mx-2" style={{ padding: "6px", fontSize: "13px", fontWeight: "900" }}>MIMPLEMENTATION
+                            SERVICES</button>
+                    </div>
+                    <div className="col">
+                        <button className="btn btn-warning mx-2" style={{ padding: "16px", fontSize: "13px", fontWeight: "900" }}>CONSULTING
+                            SERVICE</button>
+                    </div>
+                </div>
+            </div>
+            <div className="consulting-container">
+                <div className="consulting-image">
+                    <img src={consulting_img} alt="Consulting Services" style={{height: "437px !important"}}/>
+                </div>
+                <div className="consulting-content" style={{ padding: '107px' }}>
+                    <h2>CONSULTING SERVICES</h2>
+                    <p>
+                        Navigate the complexities of your IT ecosystem with confidence. Our
+                        technical experts and technology specialists are equipped with partner
+                        certifications, industry knowledge and deep expertise to guide you
+                        along the way.
+                    </p>
+                    <div className='d-flex justify-content-center'>
+                        <button className="explore-button">Explore consulting services</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Whatwedosix

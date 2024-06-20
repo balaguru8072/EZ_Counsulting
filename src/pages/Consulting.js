@@ -12,7 +12,7 @@ import Separator from "../elements/separator/Separator";
 import FooterOne from '../common/footer/FooterOne';
 import Copyright from '../common/footer/Copyright';
 import { HiArrowRight } from "react-icons/hi";
-import AboutFourImage from "../assets/images/Services/about_growth.jpg";
+import AboutFourImage from "../assets/images/home page/1.png";
 import "../assets/css/slick.css"
 import TeamThree from '../elements/team/TeamThree';
 // import ServiceOne from '../elements/service/ServiceOne';
@@ -21,10 +21,14 @@ import ThinkAbout from '../elements/about/Thinkabout';
 import TestimonialOne from '../elements/testimonial/TestimonialOne';
 import WeareHelp from '../elements/about/WeareHelp';
 import ContactOne from '../elements/contact/ContactOne';
+import images_hoems from "../assets/images/home page/10.png"
+import stillunsure from "../assets/images/home page/11.png"
 
 
 const Consulting = () => {
     const images = AboutFourImage;
+    const images_curosel = images_hoems;
+    const still_unsure_img = stillunsure
     return (
         <>
             <SEO title="EZ Consulting" />
@@ -33,7 +37,7 @@ const Consulting = () => {
                 <HeaderOne btnStyle="btn-small" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider area  */}
-                <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{ backgroundImage: `url(https://doob.rainbowit.net/images/bg/bg-image-10.jpg)` }}>
+                <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{ backgroundImage: `url(${images})` }}>
                     <div className="container" style={{ marginBottom: "236px !important" }}>
                         <div className="row">
                             <div className="col-lg-8 col-xl-6">
@@ -137,7 +141,7 @@ const Consulting = () => {
                                             <div className="card-body">
                                                 <h5 className="card-title">EZ CONSULTING SERVICE</h5>
                                                 <p className="card-text">Provide specialist accounting services to freelance contractors, medical professionals, and SMEs offering a fresh perspective to your accounts.</p>
-                                                <img src="path-to-your-image1" className="rounded-circle" alt="Client 1" />
+                                                <img src={images_curosel} className="rounded-circle" alt="Client 1" />
                                             </div>
                                         </div>
                                     </div>
@@ -148,7 +152,7 @@ const Consulting = () => {
                                             <div className="card-body">
                                                 <h5 className="card-title">EZ CONSULTING SERVICE</h5>
                                                 <p className="card-text">We are qualified and experienced accountants and business advisors with many years' experience as Chartered Certified Accountants, having helped a wide variety of clients in meeting their aims of maximising profits, retaining and building on the rewards of their hard work.</p>
-                                                <img src="path-to-your-image2" className="rounded-circle" alt="Client 2" />
+                                                <img src={images_curosel} className="rounded-circle" alt="Client 2" />
                                             </div>
                                         </div>
                                     </div>
@@ -159,7 +163,7 @@ const Consulting = () => {
                                             <div className="card-body">
                                                 <h5 className="card-title">EZ CONSULTING SERVICE</h5>
                                                 <p className="card-text">We pride ourselves on the quality of our service. If at any time you are unhappy with the service provided it's simple... You won't pay for it.</p>
-                                                <img src="path-to-your-image3" className="rounded-circle" alt="Client 3" />
+                                                <img src={images_curosel} className="rounded-circle" alt="Client 3" />
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +192,7 @@ const Consulting = () => {
                                     textAlign="text-center"
                                     radiusRounded=""
                                     subtitle="Our Experts."
-                                    title="Team Style Three"
+                                    title="What we Do"
                                     description=""
                                 />
                             </div>
@@ -220,7 +224,7 @@ const Consulting = () => {
                 </div>
 
                 <Separator />
-                <div className="containerStill" style={{ backgroundImage: `url(https://doob.rainbowit.net/images/bg/bg-image-10.jpg)` }}>
+                <div className="containerStill" style={{ backgroundImage: `url(${still_unsure_img})`, backgroundColor: "#8000804d", backgroundBlendMode: "overlay", opacity: "1" }}>
                     <div className="content">
                         <h1>Still Unsure ?</h1>
                         <p>
@@ -244,8 +248,8 @@ const Consulting = () => {
                                 <SectionTitle
                                     textAlign="text-center"
                                     radiusRounded=""
-                                    subtitle="Client Feedback"
-                                    title="Testimonial."
+                                    subtitle="OUR BLOGS"
+                                    title="OUR BLOGS"
                                 />
                             </div>
                         </div>

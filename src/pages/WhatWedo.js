@@ -2,9 +2,7 @@ import React from 'react';
 import { HiArrowRight } from "react-icons/hi";
 // import VideoTwo from '../video/VideoTwo';
 import { FiCheck } from "react-icons/fi";
-import AboutFourImage from "../assets/images/Services/about_growth.jpg";
-import HeaderTopBar from '../common/header/HeaderTopBar';
-import HeaderOne from '../common/header/HeaderOne';
+import AboutFourImage from "../assets/images/Ez consulting who we are images/who we are.jpeg";
 
 
 const PopupData = [
@@ -33,7 +31,7 @@ const WhatWedo = ({ image }) => {
                         ))} */}
                         {PopupData.map((item) => (
                             <div className="image-container" key={item.id}>
-                                <img src={item.image} alt={`Image for ${item.id}`}/>
+                                <img src={item.image} alt={`Image for ${item.id}`} style={{borderRadius: "16px"}}/>
                             </div>
                         ))}
                     </div>

@@ -17,7 +17,7 @@ const CopyrightTwo = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-5 mt_sm--20">
-                        <div className="copyright-center text-center">
+         ~               <div className="copyright-center text-center">
                             <ul className="social-icon social-default color-lessdark justify-content-center">
                                 <li><Link to="facebook.com"><FiFacebook /></Link></li>
                                 <li><Link to="twitter.com"><FiTwitter /></Link></li>

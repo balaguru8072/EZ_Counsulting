@@ -1,12 +1,14 @@
 import React from 'react';
 import "../../assets/css/slick.css";
 import { HiArrowRight } from "react-icons/hi";
-
 import ScrollAnimation from "react-animate-on-scroll";
+import freelance_img from "../../assets/images/home page/12.png";
+import newstartup_img from "../../assets/images/home page/8.png";
+import consultints_img from "../../assets/images/home page/9.png"
 
 const testimonialData = [
     {
-        image: 'testimonial-01',
+        image: freelance_img,
         name: 'FREELANCE CONTACTORS',
         // designation: 'Sr Product Designer',
         // location: 'CO Miego, AD, USA', 
@@ -14,7 +16,7 @@ const testimonialData = [
 
     },
     {
-        image: 'testimonial-02',
+        image: newstartup_img,
         name: 'NEW STARTUPS',
         // designation: 'App Developer',
         // location: 'Bangladesh', 
@@ -22,7 +24,7 @@ const testimonialData = [
 
     },
     {
-        image: 'testimonial-03',
+        image: consultints_img,
         name: 'CONSULTANTS',
         // designation: 'Accounts Manager',
         // location: 'Poland', 
@@ -44,7 +46,7 @@ const TestimonialOne = ({ column, teamStyle }) => {
                             <div className={`rn-box-card ${teamStyle}`}>
                                 <div className="inner">
                                     <figure className="thumbnail">
-                                        <img src={`./images/testimonial/${data.image}.jpg`} alt="Corporate React Template" />
+                                        <img src={data.image} alt="Corporate React Template" />
                                     </figure>
                                     <figcaption className="content">
                                         <p className="description">{data.description}</p>

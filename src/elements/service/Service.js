@@ -180,7 +180,7 @@ const Service = () => {
                     <Separator />
 
                     {/* Start Service Area  */}
-                    {/* <div className="rn-service-area rn-section-gap">
+                    <div className="rn-service-area rn-section-gap">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -198,7 +198,7 @@ const Service = () => {
                                 textAlign="text-start"
                             />
                         </div>
-                    </div> */}
+                    </div>
                     {/* End Service Area  */}
                     <div className="consulting-container">
                         <div className="consulting-image">

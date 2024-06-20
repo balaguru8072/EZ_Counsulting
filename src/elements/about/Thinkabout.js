@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowRight } from "react-icons/hi";
 import VideoTwo from '../video/VideoTwo';
 import { FiCheck } from "react-icons/fi";
-import AboutFourImage from "../../assets/images/Services/about_growth.jpg";
+import AboutFourImage from "../../assets/images/home page/10.png";
 
 
 const PopupData = [
@@ -28,7 +28,7 @@ const ThinkAbout = ({ image }) => {
                         ))} */}
                         {PopupData.map((item) => (
                             <div className="image-container" key={item.id}>
-                                <img src={item.image} alt={`Image for ${item.id}`} />
+                                <img src={item.image} alt={`Image for ${item.id}`} style={{width: "431px !important", height: "329px !important"}}/>
                             </div>
                         ))}
                     </div>

@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import "../../assets/css/slick.css"
-import InnovateImage from "../../assets/images/Services/image_service_light.png";
-import PerformanceImage from "../../assets/images/Services/image_service_resize.png";
-import FullserviceImage from "../../assets/images/Services/image_service_services.png";
+import InnovateImage from "../../assets/images/home page/7.png";
+import PerformanceImage from "../../assets/images/home page/8.png";
+import FullserviceImage from "../../assets/images/home page/9.png";
 
 
 // const PerformanceImage = "../../assets/images/Services/image_service_resize.png"

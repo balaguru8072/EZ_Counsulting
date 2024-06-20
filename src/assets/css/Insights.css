@@ -1,0 +1,43 @@
+.pad-23px{
+    padding: 23px !important;
+}
+
+.bg-dark {
+    background-color: #111 !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+/* Insightfour */
+.Finding .bg-success {
+    background-color: #28a745 !important;
+}
+.Finding .text-warning {
+    color: #ffc107 !important;
+}
+.Finding .mt-4 {
+    margin-top: 1.5rem !important;
+}
+.Finding .mb-3 {
+    margin-bottom: 1rem !important;
+}
+.Finding .p-5 {
+    padding: 3rem !important;
+}
+
+/* InsightFive */
+
+.schedull .bg-dark {
+    background-color: #6c757d !important;
+  }
+  
+.schedull .text-light {
+    color: #f8f9fa !important;
+  }
+  
