@@ -1,0 +1,49 @@
+.functional-col {
+    margin-bottom: 2rem;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background-color: #f9f9f9; /* default background color */
+  }
+  
+  .sales-bg {
+    background-color: #fff9e6;
+  }
+  
+  .finance-bg {
+    background-color: #e6f7e9;
+  }
+  
+  .supply-chain-bg {
+    background-color: #e6f2f9;
+  }
+  
+  .hr-bg {
+    background-color: #fff9e6;
+  }
+  
+  h3 {
+    font-size: 3.25rem;
+    font-weight: 900;
+    color: #333;
+  }
+
+  .service-box {
+    border: 2px solid #d4a017; /* Gold color */
+    border-radius: 50px; /* Rounded borders */
+    padding: 20px;
+    height: 100px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  
+  

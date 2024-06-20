@@ -1,55 +1,63 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
+import "../../assets/css/slick.css"
+
 
 const teamData = [
     {
         image: 'team-04',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
+        name: 'IT Stratgies',
+        designation: 'LEARN MORE',
     },
     {
         image: 'team-05',
-        name: 'Afsana Nila',
-        designation: 'App Developer',
+        name: 'IT Stratgies',
+        designation: 'LEARN MORE',
     },
     {
         image: 'team-06',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
+        name: 'IT Stratgies',
+        designation: 'LEARN MORE',
     },
     {
         image: 'team-07',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
+        name: 'IT Stratgies',
+        designation: 'LEARN MORE',
     },
 ]
 
 
-const TeamThree = ({column , teamStyle}) => {
+const TeamThree = ({ column, teamStyle }) => {
     return (
-        <div className="row row--30">
-            {teamData.map((data, index) => (
-                <div className={`${column}`} key={index}>
-                    <ScrollAnimation 
-                    animateIn="fadeInUp"
-                    animateOut="fadeInOut"
-                    animateOnce={true}>
-                        <div className={`rn-team ${teamStyle}`}>
-                            <div className="inner">
-                                <figure className="thumbnail">
-                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
-                                </figure>
-                                <figcaption className="content">
-                                    <h2 className="title">{data.name}</h2>
-                                    <h6 className="subtitle theme-gradient">{data.designation}</h6>
-                                </figcaption>
+        <div>
+            <div className="row row--30">
+                {teamData.map((data, index) => (
+                    <div className={`${column}`} key={index}>
+                        <ScrollAnimation
+                            animateIn="fadeInUp"
+                            animateOut="fadeInOut"
+                            animateOnce={true}>
+                            <div className={`rn-team ${teamStyle}`}>
+                                <div className="inner">
+                                    <figure className="thumbnail">
+                                        <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
+                                    </figure>
+                                    <figcaption className="content">
+                                        <h2 className="title">{data.name}</h2>
+                                        <h6 className="subtitle theme-gradient">{data.designation}</h6>
+                                    </figcaption>
+                                </div>
                             </div>
-                        </div>
-                    </ScrollAnimation>
-                </div>
-            ))}
+                        </ScrollAnimation>
+                    </div>
+                ))}
+            </div>
+            <div className='mt-5 mb-0' style={{width: "auto", float: "inline-end"}}>
+
+                <button className='banner-button'>SEE ALL OUT SERVICE</button>
+            </div>
         </div>
     )
 }

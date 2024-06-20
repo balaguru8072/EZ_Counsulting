@@ -50,8 +50,8 @@ const Testimonial = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Client Feedback"
-                                        title = "Testimonial."
+                                        subtitle = "BLOGS"
+                                        title = "OUR BLOGS"
                                     />
                                 </div>
                             </div>

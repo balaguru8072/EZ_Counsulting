@@ -204,7 +204,7 @@ const Service = () => {
                         <div className="consulting-image">
                             <img src="https://doob.rainbowit.net/images/bg/bg-image-12.jpg" alt="Consulting Services" />
                         </div>
-                        <div className="consulting-content">
+                        <div className="consulting-content" style={{padding: '19px'}}>
                             <h2>CONSULTING SERVICES</h2>
                             <p>
                                 Navigate the complexities of your IT ecosystem with confidence. Our

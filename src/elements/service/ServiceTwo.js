@@ -1,50 +1,63 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
+import "../../assets/css/slick.css"
+import InnovateImage from "../../assets/images/Services/image_service_light.png";
+import PerformanceImage from "../../assets/images/Services/image_service_resize.png";
+import FullserviceImage from "../../assets/images/Services/image_service_services.png";
+
+
+// const PerformanceImage = "../../assets/images/Services/image_service_resize.png"
 
 const ServiceList = [
     {
-        image: '/images/service/serviice-01.jpg',
-        title: 'We innovate',
-        description: 'We innovate systematically, Continuously and successfully. '
+        image: InnovateImage,
+        title: '',
+        description: 'B2B Wholesale Manufacturing & Distribution Company '
     },
     {
-        image: '/images/service/serviice-02.jpg',
-        title: 'Performance',
-        description: 'Performance is about solving Problems and building business.'
+        image: PerformanceImage,
+        title: '',
+        description: 'Reporting and access to financial data - fast growing IT company.'
     },
     {
-        image: '/images/service/serviice-03.jpg',
-        title: 'A full service',
-        description: 'We are a full service Business solutions provider.'
+        image: FullserviceImage,
+        title: '',
+        description: 'Efficiency saving - from 2 days per week to 2 days per month'
     }
 ]
-const ServiceTwo = ({textAlign, cardStyle}) => {
+const ServiceTwo = ({ textAlign, cardStyle }) => {
     return (
-        <div className="row row--15 service-wrapper aligin-item-center justify-content-center">
-              {ServiceList.map( (val , i) => (
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                    <ScrollAnimation 
-                    animateIn="fadeInUp"
-                    animateOut="fadeInOut"
-                    animateOnce={true}>
-                        <div className={`card-box ${cardStyle} ${textAlign}`}>
-                            <div className="inner">
-                                <div className="image">
-                                    <Link to="#service">
-                                        <img src={`${val.image}`} alt="card Images" />
-                                    </Link>
-                                </div>
-                                <div className="content">
-                                    <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
-                                    <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                    <Link className="btn-default btn-small btn-border" to="#service">Read More</Link>
+        <div>
+            <div className="row row--15 service-wrapper aligin-item-center justify-content-center">
+                {ServiceList.map((val, i) => (
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
+                        <ScrollAnimation
+                            animateIn="fadeInUp"
+                            animateOut="fadeInOut"
+                            animateOnce={true}>
+                            <div className={`card-box ${cardStyle} ${textAlign}`}>
+                                <div className="inner">
+                                    <div className="image">
+                                        <Link to="#service">
+                                            <img src={`${val.image}`} alt="card Images" />
+                                        </Link>
+                                    </div>
+                                    <div className="content">
+                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{ __html: val.title }}></Link></h4>
+                                        <p className={`description b1 color-gray ${i === 0 ? 'margin-bottom-48' : 'margin-bottom-27'}`} dangerouslySetInnerHTML={{ __html: val.description }}></p>
+                                        <Link className="btn-default btn-small btn-border" to="#service">Read More</Link>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </ScrollAnimation>
-                </div>
-            ))}
+                        </ScrollAnimation>
+                    </div>
+                ))}
+            </div>
+            <div className='mt-5 mb-0' style={{width: "auto", float: "inline-end"}}>
+
+                <button className='banner-button'>SEE ALL OUT SERVICE</button>
+            </div>
         </div>
     )
 }

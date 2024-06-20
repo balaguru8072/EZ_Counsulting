@@ -1,10 +1,11 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import '../../assets/css/Nav.css';
 
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="consulting">Home</Link>
+            <li className="has-droupdown"><Link to="consulting">HOME</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -26,8 +27,8 @@ const Nav = () => {
                     <li><Link to="/web-agency">Web Agency</Link></li>
                 </ul> */}
             </li>
-            
-            <li><Link to="/about-us">About</Link></li>
+
+            <li><Link to="/whatwedo">WHAT WE DO</Link></li>
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
@@ -81,16 +82,16 @@ const Nav = () => {
                 </div>
             </li> */}
 
-            <li className="has-droupdown"><Link to="/blog-grid">Blog</Link>
-                {/* <ul className="submenu">
+            {/* <li className="has-droupdown"><Link to="/blog-grid">Blog</Link> */}
+            {/* <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
                     <li><Link to="/blog-list-view">Blog List View</Link></li>
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul> */}
-            </li>
+            {/* </li> */}
 
-            <li className="has-droupdown"><Link to="/service">Service</Link>
+            <li className="has-droupdown"><Link to="/WhoweareMain">WHO WE ARE</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
@@ -98,27 +99,29 @@ const Nav = () => {
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul> */}
             </li>
-            
-            <li className="has-droupdown"><Link to="/team">Team</Link>
-                {/* <ul className="submenu">
+            <li className="has-droupdown"><Link to="/service">INSIGHITS</Link>
+            </li>
+            {/* <li className="has-droupdown"><Link to="/team">Team</Link> */}
+            {/* <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
                     <li><Link to="/blog-list-view">Blog List View</Link></li>
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul> */}
-            </li>
+            {/* </li> */}
 
-            <li className="has-droupdown"><Link to="/portfolio">Portfolio</Link>
-                {/* <ul className="submenu">
+            {/* <li className="has-droupdown"><Link to="/portfolio">Portfolio</Link> */}
+            {/* <ul className="submenu">
                     <li><Link to="/portfolio">Portfolio Default</Link></li>
                     <li><Link to="/portfolio-three-column">Portfolio Three Column</Link></li>
                     <li><Link to="/portfolio-full-width">Portfolio Full Width</Link></li>
                     <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
                     <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
                 </ul> */}
-            </li>
+            {/* </li> */}
 
             <li className="has-droupdown"><Link to="/contact">Contact US</Link></li>
+
         </ul>
     )
 }

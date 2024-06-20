@@ -70,6 +70,8 @@ import Error from "./pages/Error";
 
 // Import Css Here 
 import './assets/scss/style.scss';
+import WhatWedo from './pages/WhatWedo';
+import WhoweareMain from './pages/WhoweareMain';
 
 
 const App = () => {
@@ -78,6 +80,7 @@ const App = () => {
             <PageScrollTop>
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={Consulting}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/WhoweareMain"}`} exact component={WhoweareMain}/>
                     {/* <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>
                     <Route path={`${process.env.PUBLIC_URL + "/corporate"}`} exact component={Corporate}/>
@@ -114,8 +117,8 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/progressbar"}`} exact component={Progressbar}/>
                     <Route path={`${process.env.PUBLIC_URL + "/social-share"}`} exact component={Social}/> */}
                     <Route path={`${process.env.PUBLIC_URL + "/team"}`} exact component={Team}/>
-                    {/* <Route path={`${process.env.PUBLIC_URL + "/testimonial"}`} exact component={Testimonial}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/timeline"}`} exact component={Timeline}/>
+                     {/* <Route path={`${process.env.PUBLIC_URL + "/testimonial"}`} exact component={Testimonial}/> */}
+                    {/* <Route path={`${process.env.PUBLIC_URL + "/timeline"}`} exact component={Timeline}/>
                     <Route path={`${process.env.PUBLIC_URL + "/accordion"}`} exact component={RnAccordion}/>
                     <Route path={`${process.env.PUBLIC_URL + "/tab"}`} exact component={Tab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/pricing"}`} exact component={Pricing}/>
