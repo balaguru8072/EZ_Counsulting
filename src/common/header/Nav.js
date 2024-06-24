@@ -5,7 +5,7 @@ import '../../assets/css/Nav.css';
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="consulting">HOME</Link>
+            <li className="has-droupdown"><Link to="/consulting">HOME</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -28,7 +28,7 @@ const Nav = () => {
                 </ul> */}
             </li>
 
-            <li><Link to="/WhatwedoMain">WHAT WE DO</Link></li>
+            <li><Link to="/consulting/WhatwedoMain">WHAT WE DO</Link></li>
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
@@ -91,7 +91,7 @@ const Nav = () => {
                 </ul> */}
             {/* </li> */}
 
-            <li className="has-droupdown"><Link to="/WhoweareMain">WHO WE ARE</Link>
+            <li className="has-droupdown"><Link to="/consulting/WhoweareMain">WHO WE ARE</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
@@ -99,7 +99,7 @@ const Nav = () => {
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul> */}
             </li>
-            <li className="has-droupdown"><Link to="/Insights">INSIGHITS</Link>
+            <li className="has-droupdown"><Link to="/consulting/Insights">INSIGHTS</Link>
             </li>
             {/* <li className="has-droupdown"><Link to="/team">Team</Link> */}
             {/* <ul className="submenu">
@@ -120,7 +120,7 @@ const Nav = () => {
                 </ul> */}
             {/* </li> */}
 
-            <li className="has-droupdown"><Link to="/contact">Contact US</Link></li>
+            <li className="has-droupdown"><Link to="/consulting/contact">Contact US</Link></li>
 
         </ul>
     )

@@ -45,8 +45,8 @@ const ServiceTwo = ({ textAlign, cardStyle }) => {
                                     </div>
                                     <div className="content">
                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{ __html: val.title }}></Link></h4>
-                                        <p className={`description b1 color-gray ${i === 0 ? 'margin-bottom-48' : 'margin-bottom-27'}`} dangerouslySetInnerHTML={{ __html: val.description }}></p>
-                                        <Link className="btn-default btn-small btn-border" to="#service">Read More</Link>
+                                        <p className={`description b1 color-gray `} dangerouslySetInnerHTML={{ __html: val.description }}></p>
+                                        <Link className="btn-default" to="/consulting/WhoweareMain">Read More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const ServiceTwo = ({ textAlign, cardStyle }) => {
             </div>
             <div className='mt-5 mb-0' style={{width: "auto", float: "inline-end"}}>
 
-                <button className='banner-button'>SEE ALL OUT SERVICE</button>
+                <button className='btn-default'>SEE ALL OUT SERVICE</button>
             </div>
         </div>
     )

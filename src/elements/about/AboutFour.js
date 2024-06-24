@@ -28,42 +28,43 @@ const AboutFour = ({ image }) => {
                         ))} */}
                         {PopupData.map((item) => (
                             <div className="image-container" key={item.id}>
-                                <img src={item.image} alt={`Image for ${item.id}`} style={{height: "22.313rem !important"}}/>
+                                <img src={item.image} alt={`Image for ${item.id}`} style={{ height: "22.313rem !important" }} />
                             </div>
                         ))}
                     </div>
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">About EZ Consulting Services</h3>
+                                <h3 className="title" style={{ color: "white" }}>About <br /> <strong>EZ Consulting</strong> Services</h3>
                                 <ul className="feature-list">
                                     <li>
-                                        {/* <div className="icon">
+                                        <div className="icons">
                                             <FiCheck />
-                                        </div> */}
+                                        </div>
                                         <div className="title-wrapper">
-                                            {/* <h4 className="title">A good traveler has no fixed plans</h4> */}
-                                            <p className="text">We are qualified and experience
+                                            <h4 className="title" style={{marginBottom: "20px"}}>We are qualified and experience
                                                 consultants and Business advisors with many
                                                 years experience from plan optimization to
-                                                revenue strategy and have helped a wide
-                                                variety of clients in meeting their aims of
-                                                maximising profits, retaining and building on
-                                                the rewards of their hard work</p>
+                                                revenue strategy</h4>
+                                            {/* <p className="text" style={{display: "hide"}}>Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p> */}
+
                                         </div>
                                     </li>
-                                    {/* <li>
-                                        <div className="icon">
+                                    <li>
+                                        <div className="icons">
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">A good traveler has no fixed plans</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
+                                            <h4 className="title">have helped a wide
+                                                variety of clients in meeting their aims of
+                                                maximising profits, retaining and building on
+                                                the rewards of their hard work</h4>
+                                            {/* <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p> */}
                                         </div>
-                                    </li> */}
+                                    </li>
                                 </ul>
                                 <div className="about-btn mt--30">
-                                    <a className="btn-default" href="/about-us">READ MORE <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
+                                    <a className="btn-default" href="/">READ MORE <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
                                 </div>
                             </div>
                         </div>

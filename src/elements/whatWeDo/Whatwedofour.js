@@ -11,7 +11,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from "react-router-dom";
 import { FiActivity, FiCast, FiMap } from "react-icons/fi";
 
-
 function Whatwedofour({ textAlign, cardStyle }) {
     const ServiceList = [
         {
@@ -50,6 +49,35 @@ function Whatwedofour({ textAlign, cardStyle }) {
             description: 'Architect, modernize and manage your entire IT infrastructure to support business transformation goals.'
         }
     ]
+
+    const getMarginBottom = (index) => {
+        switch (index % 7) {
+            case 0:
+                return '25px';
+            case 1:
+                return '59px';
+            case 2:
+                return '81px';
+            case 3:
+                return '28px';
+            case 4:
+                return '33px';
+            case 6:
+                return '29px';
+            default:
+                return 'initial'; // Or any default value you want
+        }
+    };
+
+    const getCardImageStyles = (index) => {
+        if (index === 2) { // Apply styles only to the third card (index 2)
+            return {
+                marginBottom: '19px'
+            };
+        }
+        return {}; // Return empty object for other cards
+    };
+
     return (
         <div>
             <div>
@@ -62,14 +90,14 @@ function Whatwedofour({ textAlign, cardStyle }) {
                                 animateOnce={true}>
                                 <div className={`card-box ${cardStyle} ${textAlign}`}>
                                     <div className="inner">
-                                        <div className="image">
+                                        <div className="image" style={i === 2 ? { marginBottom: '19px' } : {}}>
                                             <Link to="#service">
-                                                <img src={`${val.image}`} alt="card Images" />
+                                                <img src={val.image} alt="card Images" style={i === 2 ? { marginTop: '10px', padding: '-8px' } : {}} />
                                             </Link>
                                         </div>
                                         <div className="content">
                                             <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{ __html: val.title }}></Link></h4>
-                                            <p className={`description b1 color-gray margin-bottom-48 margin-bottom-27}`} dangerouslySetInnerHTML={{ __html: val.description }}></p>
+                                            <p className="description b1 color-gray" style={{ marginBottom: getMarginBottom(i) }} dangerouslySetInnerHTML={{ __html: val.description }}></p>
                                             <Link className="btn-default btn-small btn-border" to="#service">Read More</Link>
                                         </div>
                                     </div>
@@ -78,12 +106,9 @@ function Whatwedofour({ textAlign, cardStyle }) {
                         </div>
                     ))}
                 </div>
-                {/* <div className='mt-5 mb-0' style={{ width: "auto", float: "inline-end" }}>
-                    <button className='banner-button'>SEE ALL OUT SERVICE</button>
-                </div> */}
             </div>
         </div>
     )
 }
 
-export default Whatwedofour
+export default Whatwedofour;

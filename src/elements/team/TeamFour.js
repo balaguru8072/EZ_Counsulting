@@ -103,7 +103,7 @@ const TeamFour = ({ column, teamStyle }) => {
     return (
         <div className="row row--15">
             {teamData.map((data, index) => (
-                <div className={`${column}`} key={index}>
+                <div className={`${column}`} key={index} style={{cursor: "pointer"}}>
                     <ScrollAnimation
                         animateIn="fadeInUp"
                         animateOut="fadeInOut"

@@ -35,14 +35,14 @@ const ThinkAbout = ({ image }) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">Things you
+                                <h3 className="title" style={{color: "#059DFF", fontWeight: "900", marginBottom: "0px"}}>Things you
                                     didnt know !</h3>
                                 <ul className="feature-list">
                                     <li>
                                         {/* <div className="icon">
                                             <FiCheck />
                                         </div> */}
-                                        <div className="title-wrapper">
+                                        <div className="title-wrapper" style={{width: "100%"}}>
                                             {/* <h4 className="title">A good traveler has no fixed plans</h4> */}
                                             <p className="text">Interesting facts and stats
                                                 about Ez Consluting</p>

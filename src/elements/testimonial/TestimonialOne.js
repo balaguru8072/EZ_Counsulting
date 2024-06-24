@@ -61,7 +61,7 @@ const TestimonialOne = ({ column, teamStyle }) => {
             </div>
             <div className='mt-5 mb-0' style={{ width: "auto", float: "inline-end" }}>
 
-                <button className='banner-button'>READ MORE CASE STUDY <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></button>
+                <button className='btn-default'>READ MORE CASE STUDY <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></button>
             </div>
         </div>
     )

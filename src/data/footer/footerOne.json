@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Create Website By Doob So Quick Download And Make Your Site."
+        "title": "Grow Your Business with data-driven strategie"
     },
 
     {
@@ -10,23 +10,23 @@
         "quicklink": [
             {
                 "id": 1,
-                "text": "About",
-                "url": "/about"
+                "text": "What we do",
+                "url": "/consulting/WhatwedoMain"
             },
             {
                 "id": 2,
-                "text": "Portfolio",
-                "url": "/portfolio"
+                "text": "Who we are",
+                "url": "/consulting/WhoweareMain"
             },
             {
                 "id": 3,
-                "text": "Contact",
-                "url": "/contact"
+                "text": "Insight",
+                "url": "/consulting/Insights"
             },
             {
                 "id": 4,
-                "text": "Service",
-                "url": "/service"
+                "text": "Contact",
+                "url": "/consulting/contact"
             }
         ]
     },

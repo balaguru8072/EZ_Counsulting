@@ -15,6 +15,7 @@ import WhatwedoFive from '../elements/whatWeDo/WhatwedoFive';
 import Whatwedosix from '../elements/whatWeDo/Whatwedosix';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
+import BreadcrumbOne from '../elements/breadcrumb/BreadcrumbOne';
 
 function WhatwedoMain() {
     return (
@@ -23,14 +24,20 @@ function WhatwedoMain() {
             <HeaderTopBar />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
+                <BreadcrumbOne
+                    title="EZ Consulting is the partner to help you tackle your biggest initiatives and achieve your most ambitious technology goals."
+                    rootUrl="/"
+                    parentUrl="Home"
+                    currentUrl="WHAT WE DOs"
+                />
                 <div className="rn-service-area mt-5">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12 mb-0">
                                 <SectionTitle
                                     textAlign="text-center"
                                     radiusRounded=""
-                                    subtitle="What we  do for you"
+                                    subtitle="what we do"
                                 // title="Services provide for you."
                                 // description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                 />
@@ -40,7 +47,7 @@ function WhatwedoMain() {
                     </div>
                 </div>
                 <Separator />
-                <div className="rn-service-area mt-5">
+                <div className="rn-service-area mt-0 my-0">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -57,7 +64,7 @@ function WhatwedoMain() {
                     </div>
                 </div>
                 <Separator />
-                <div className="rn-service-area mt-5">
+                {/* <div className="rn-service-area mt-5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -65,11 +72,11 @@ function WhatwedoMain() {
                                     textAlign="text-center"
                                     radiusRounded=""
                                     subtitle="What we  do for you"
-                                    // title="Services provide for you."
+                                    title="Services provide for you."
                                     description="As a global Solutions Integrator with vast technical expertise and deep industry experience, we’re uniquely equipped to help you navigate an always-changing, always-growing digital economy"
                                 />
                             </div>
-                            {/* <p>As a global Solutions Integrator with vast technical expertise and deep industry experience, we’re uniquely equipped to help you navigate an always-changing, always-growing digital economy</p> */}
+                            <p>As a global Solutions Integrator with vast technical expertise and deep industry experience, we’re uniquely equipped to help you navigate an always-changing, always-growing digital economy</p>
                         </div>
                         <div>
                             <hr style={{ backgroundColor: "white", border: "1px solid white", width: "auto" }} />
@@ -80,7 +87,7 @@ function WhatwedoMain() {
                             <p className="mt-3">Explore our case studies, and discover some of our ambitious collaborations.</p>
                         </Container>
                     </div>
-                </div>
+                </div> */}
                 <Separator />
                 <div className="rn-service-area mt-5">
                     <div className="container">

@@ -26,12 +26,12 @@ const WhoweareOne = ({ image }) => {
                         <div className="col-lg-6 mt_md--40 mt_sm--40">
                             <div className="content">
                                 <div className="inner">
-                                    <h3 className="title" style={{ textAlign: "center" }}>OUR MISSION</h3>
+                                    <h3 className="title theme-gradient" style={{ textAlign: "center", color: "white" }}>OUR MISSION</h3>
                                     <ul className="feature-list">
                                         <li>
                                             <div className="title-wrapper">
                                                 {/* <h4 className="title">WHO WE ARE</h4> */}
-                                                <p className="text" >We are EZ Consulting, leaders in IT consulting,
+                                                <p className="text text-white" >We are EZ Consulting, leaders in IT consulting,
                                                     driven by innovation and expertise. With a
                                                     focus on client-centric solutions, we navigate
                                                     the complexities of technology to drive

@@ -12,15 +12,15 @@ function WhoweareThree() {
     return (
         <div className='container'>
             <div >
-                <h2 className='text-center'>OUR PLEDGE</h2>
-                <p className='text-justify font-weight-bold'>pledge to leverage our expertise to transform businesses with innovative IT
+                <h2 className='text-center theme-gradient'>OUR PLEDGE</h2>
+                <p className='text-justify font-weight-bold text-white'>pledge to leverage our expertise to transform businesses with innovative IT
                     solutions, committed to exceeding client expectations and driving success.</p>
             </div>
             <div className='bg-warning'>
                 <p className='text-left text-white' style={{ fontSize: "xxx-large", fontWeight: "900" }}>OUR EXPERTISE</p>
             </div>
             <Container className="text-center my-5">
-                <h2 className="mb-4">INDUSTRY EXPERIENCE</h2>
+                <h2 className="mb-4 theme-gradient">INDUSTRY EXPERIENCE</h2>
                 <Row className="gy-4">
                     <Col xs={12} md={6} lg={3}>
                         <div className="p-3 border rounded">
@@ -49,7 +49,7 @@ function WhoweareThree() {
                 </Row>
             </Container>
             <Container className="my-5">
-                <h2 className="text-center mb-5">FUNCTIONAL EXPERTISE</h2>
+                <h2 className="text-center mb-5 theme-gradient">FUNCTIONAL EXPERTISE</h2>
                 <Row className="text-center">
                     <Col xs={12} md={3} className="functional-col" style={{ backgroundColor: "rgb(255, 244, 209)", borderTopLeftRadius: "378px", borderTopRightRadius: "366px", height: "100vh" }}>
                         <div className="icon-container" style={{ marginTop: "105px", width: "60%" }}>

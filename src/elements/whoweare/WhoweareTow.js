@@ -36,12 +36,12 @@ const WhoweareTwo = ({ image }) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title" style={{ textAlign: "center" }}>OUR VISSION</h3>
+                                <h3 className="title theme-gradient" style={{  color: "white"}}>OUR VISSION</h3>
                                 <ul className="feature-list">
                                     <li>
                                         <div className="title-wrapper">
                                             {/* <h4 className="title">WHO WE ARE</h4> */}
-                                            <p className="text" >our vision is to be the forefront of technological
+                                            <p className="text text-white" >our vision is to be the forefront of technological
                                                 advancement, shaping the future of industries
                                                 worldwide. We aspire to create a seamless digital
                                                 ecosystem where businesses thrive through

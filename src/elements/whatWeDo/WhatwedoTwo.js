@@ -7,13 +7,13 @@ function WhatwedoTwo() {
         <div className='rwt-contact-area rn-section-gap'>
             <div className='container'>
                 <div className="container containeres">
-                    <div className="card">
+                    <div className="card" >
                         <div className='d-flex justify-content-center'>
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQI8XUhg4kIh2wdZ61D9HVMnipQywxgugJSGxT8XkG9dbh662B" alt="Client Experience Icon" />
                         </div>
                         <h2 className='mt-3'>Client experience</h2>
                         <p className='mt-3'>Serve your customers better with the right IT infrastructure, hardware, software and applications.</p>
-                        <a href="#" className=''>Learn more →</a>
+                        <a href="#" className='' style={{cursor: "pointer"}}>Learn more →</a>
                     </div>
                     <div className="card">
                         <div className='d-flex justify-content-center'>

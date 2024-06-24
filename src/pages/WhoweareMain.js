@@ -14,6 +14,7 @@ import SectionTitle from '../elements/sectionTitle/SectionTitle'
 import Copyright from '../common/footer/Copyright'
 import FooterTwo from '../common/footer/FooterTwo'
 import SEO from '../common/SEO'
+import BreadcrumbOne from '../elements/breadcrumb/BreadcrumbOne'
 
 function WhoweareMain() {
     return (
@@ -23,6 +24,12 @@ function WhoweareMain() {
             <main className='page-wrapper'>
                 {/* <HeaderTopBar /> */}
                 <HeaderOne btnStyle="btn-small" HeaderSTyle="header-transparent" />
+                <BreadcrumbOne
+                    title="We are EZ Consulting, leaders in IT consulting, driven by innovation and expertise. With a focus on client-centric solutions, we navigate the complexities of technology to drive growth. "
+                    rootUrl="/"
+                    parentUrl="Home"
+                    currentUrl="WHO WE ARE"
+                />
                 <WhatWedo />
                 <Separator />
                 <WhoweareOne />

@@ -14,6 +14,7 @@ import Insightsforu from '../elements/Insights/Insightsforu'
 import InsightsFive from '../elements/Insights/InsightsFive'
 import FooterTwo from '../common/footer/FooterTwo'
 import Copyright from '../common/footer/Copyright'
+import BreadcrumbOne from '../elements/breadcrumb/BreadcrumbOne'
 
 function Insights() {
     return (
@@ -23,7 +24,13 @@ function Insights() {
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
                 <Separator />
-                <div style={{ paddingTop: "9rem !important" }} className="rn-service-area pt-5 mt-5 mb-0" >
+                <BreadcrumbOne
+                    title="Check out our collection of helpful resources, our clients, and growth below. Click here for our latest research and methodologies. "
+                    rootUrl="/"
+                    parentUrl="Home"
+                    currentUrl="INSIGHTS"
+                />
+                <div style={{ paddingTop: "9rem !important" }} className="rn-service-area pt-5 mt-5 mb-0 " >
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -31,15 +38,12 @@ function Insights() {
                                     textAlign="text-center"
                                     // radiusRounded=""
                                     // subtitle="STAY UP TO DATE"
-                                    title="INSIGHTS"
-                                    description="Check out our collection of helpful resources, our clients, and growth below. Click here for our latest research and methodologies."
+                                    // title="INSIGHTS"
+                                    // description="Check out our collection of helpful resources, our clients, and growth below. Click here for our latest research and methodologies."
                                 />
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center'>
-
-                            <Link className="btn-default btn-border" to="/contact">CONTACT US</Link>
-                        </div>
+                        
                         {/* <WhatwedoOne /> */}
                     </div>
                 </div>

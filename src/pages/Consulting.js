@@ -23,6 +23,8 @@ import WeareHelp from '../elements/about/WeareHelp';
 import ContactOne from '../elements/contact/ContactOne';
 import images_hoems from "../assets/images/home page/10.png"
 import stillunsure from "../assets/images/home page/11.png"
+import Testimonialfour from '../elements/testimonial/Testimonialfour';
+import FooterTwo from '../common/footer/FooterTwo';
 
 
 const Consulting = () => {
@@ -48,7 +50,7 @@ const Consulting = () => {
                                         growth through stratgies consulting and
                                         implementation</p>
                                     {/* <h6 className="tag-title">SOLUTION FOR YOUR BUSINESS</h6> */}
-                                    <button className='banner-button'>GET START <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></button>
+                                    <button className='btn-default'>GET START <HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></button>
                                 </div>
                             </div>
                         </div>
@@ -133,54 +135,7 @@ const Consulting = () => {
                                 />
                             </div>
                         </div>
-                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <div className="d-flex justify-content-center">
-                                        <div className="card text-center">
-                                            <div className="card-body">
-                                                <h5 className="card-title">EZ CONSULTING SERVICE</h5>
-                                                <p className="card-text">Provide specialist accounting services to freelance contractors, medical professionals, and SMEs offering a fresh perspective to your accounts.</p>
-                                                <img src={images_curosel} className="rounded-circle" alt="Client 1" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className="d-flex justify-content-center">
-                                        <div className="card text-center">
-                                            <div className="card-body">
-                                                <h5 className="card-title">EZ CONSULTING SERVICE</h5>
-                                                <p className="card-text">We are qualified and experienced accountants and business advisors with many years' experience as Chartered Certified Accountants, having helped a wide variety of clients in meeting their aims of maximising profits, retaining and building on the rewards of their hard work.</p>
-                                                <img src={images_curosel} className="rounded-circle" alt="Client 2" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className="d-flex justify-content-center">
-                                        <div className="card text-center">
-                                            <div className="card-body">
-                                                <h5 className="card-title">EZ CONSULTING SERVICE</h5>
-                                                <p className="card-text">We pride ourselves on the quality of our service. If at any time you are unhappy with the service provided it's simple... You won't pay for it.</p>
-                                                <img src={images_curosel} className="rounded-circle" alt="Client 3" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                            <div className="text-center mt-3">
-                                <button className="btn btn-warning banner-button" style={{ padding: "14px", color: "white", fontSize: "smaller", fontWeight: "900" }}>SEE MORE CLIENT VIDEOS</button>
-                            </div>
-                        </div>
+                        <Testimonialfour teamStyle=""/>
                     </div>
                 </div>
                 <Separator />
@@ -230,7 +185,7 @@ const Consulting = () => {
                         <p>
                             Request a call Back Book a meeting Ask for a proposal Have a Quick Questions ?
                         </p>
-                        <button className="cta-button">ASK A QUESTIONS</button>
+                        <button className="btn-default">ASK A QUESTIONS</button>
                     </div>
                     <div className="footer">
                         <hr className="line" style={{ width: "38px !important" }} />
@@ -257,7 +212,7 @@ const Consulting = () => {
                     </div>
                 </div>
                 <Separator />
-                <div className="rwt-testimonial-area rn-section-gap">
+                <div className="rwt-testimonial-area " style={{padding: "27px 0"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 mb--10">
@@ -273,7 +228,7 @@ const Consulting = () => {
                     </div>
                 </div>
                 <Separator />
-                <div className="rwt-testimonial-area rn-section-gap">
+                <div className="rwt-testimonial-area rn-section-gap" style={{padding: "29px 0"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 mb--10">
@@ -288,7 +243,7 @@ const Consulting = () => {
                         <ContactOne />
                     </div>
                 </div>
-                <FooterOne />
+                <FooterTwo />
                 <Copyright />
             </main>
 

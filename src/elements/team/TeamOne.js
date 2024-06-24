@@ -95,10 +95,10 @@ const TeamOne = ({column , teamStyle}) => {
                                 <figcaption className="content">
                                     <h2 className="title">{data.name}</h2>
                                     <h6 className="subtitle theme-gradient">{data.designation}</h6>
-                                    <span className="team-form">
+                                    {/* <span className="team-form">
                                         <img src="./images/team/location.svg" alt="Corporate React Template" />
                                         <span className="location">{data.location}</span>
-                                    </span>
+                                    </span> */}
                                     <p className="description">{data.description}</p>
 
                                     <ul className="social-icon social-default icon-naked mt--20" >

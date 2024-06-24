@@ -28,14 +28,14 @@ const WeareHelp = ({ image }) => {
                         ))} */}
                         {PopupData.map((item) => (
                             <div className="image-container" key={item.id}>
-                                <img src={item.image} alt={`Image for ${item.id}`} style={{height: "400px !important"}}/>
+                                <img src={item.image} alt={`Image for ${item.id}`} style={{ height: "400px !important" }} />
                             </div>
                         ))}
                     </div>
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">We’re Here To
+                                <h3 className="title" style={{ color: "white" }}>We’re Here To
                                     Help</h3>
                                 <ul className="feature-list">
                                     <li>
@@ -61,11 +61,13 @@ const WeareHelp = ({ image }) => {
                                         </div>
                                     </li> */}
                                 </ul>
-                                <div className="about-btn mt--30 d-flex">
-                                    <a className="btn-default" href="/about-us">DOWNLOAD EBOOK<HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
-                                </div>
-                                <div className="about-btn mt--30 d-flex">
-                                    <a className="btn-default" href="/about-us">DOWNLOAD HEAR<HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
+                                <div className='d-flex justify-content-between'>
+                                    <div className="about-btn mt--30 d-flex">
+                                        <a className="btn-default" href="/about-us">DOWNLOAD EBOOK<HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
+                                    </div>
+                                    <div className="about-btn mt--30 d-flex">
+                                        <a className="btn-default" href="/about-us">DOWNLOAD HEAR<HiArrowRight style={{ width: '40px', fontSize: 'xx-large' }} /></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

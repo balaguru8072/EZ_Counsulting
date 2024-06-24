@@ -14,7 +14,7 @@ function WhatwedoOne() {
     ]
     return (
         <div>
-            <div className="about-area about-style-4 rn-section-gap">
+            <div className="about-area about-style-4 " style={{padding: "38px 0 !important"}}>
                 <div className="container">
                     <div className="row row--40 align-items-center">
                         <div className="col-lg-6">
@@ -32,18 +32,18 @@ function WhatwedoOne() {
                         <div className="col-lg-6 mt_md--40 mt_sm--40">
                             <div className="content">
                                 <div className="inner">
-                                    <h3 className="title" style={{}}>WHO WE ARE</h3>
+                                    <h3 className="title text-white mb-2" style={{fontWeight: "bold"}}>What we do </h3>
                                     <ul className="feature-list">
                                         <li>
                                             <div className="title-wrapper">
                                                 {/* <h4 className="title">WHO WE ARE</h4> */}
-                                                <p className="text" style={{ color: "#00408B", fontSize: "20px !important", fontWeight: "bold" }}>EZ Consulting is the partner
+                                                <p className="text mb-1" style={{ color: "#00408B", fontSize: "25px ", fontWeight: "bold" }}>EZ Consulting is the partner
                                                     to help you tackle your
                                                     biggest initiatives and
                                                     achieve your most ambitious
                                                     technology goals.</p>
                                                 <br />
-                                                <p>With an unmatched combination of solutions
+                                                <p className='text-white'>With an unmatched combination of solutions
                                                     expertise and delivery capabilities, we navigate
                                                     complexity and drive digital transformation for
                                                     top organizations across industries.</p>
@@ -55,8 +55,8 @@ function WhatwedoOne() {
                         </div>
                     </div>
                 </div>
-                <div className="container text-center my-5">
-                    <h2 className="mb-5">WHAT BUSINESS OUTCOMES ARE YOU LOOKING TO ADDRESS?</h2>
+                <div className="container text-center my-5 mt-5">
+                    <h2 className="mb-5 mt-5">WHAT BUSINESS OUTCOMES ARE YOU LOOKING TO ADDRESS?</h2>
                     <div className="row mb-4">
                         <div className="col">
                             <button className="btn btn-warning mx-2" style={{padding: "17px", fontSize: "13px", fontWeight: "900"}}>CLIENT EXPERIENCE</button>
@@ -76,7 +76,7 @@ function WhatwedoOne() {
                     </div>
                     <div className="row">
                         <div className="col mt-5">
-                            <p>
+                            <p className='text-white'>
                                 Whether you need consulting for a data platform modernization, Legacy
                                 Application Modernization, an end-to-end technology refresh or anything
                                 in between we’re here to guide you every step of the way.

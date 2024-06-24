@@ -11,22 +11,22 @@ import images4 from "../../assets/images/home page/6.png";
 const teamData = [
     {
         image: images1,
-        name: 'IT Stratgies',
+        name: 'ADAPTIVE CONSULTING',
         designation: 'LEARN MORE',
     },
     {
         image: images2,
-        name: 'IT Stratgies',
+        name: 'DATA SERVICES',
         designation: 'LEARN MORE',
     },
     {
         image: images3,
-        name: 'IT Stratgies',
+        name: 'CONSULTING SERVICES',
         designation: 'LEARN MORE',
     },
     {
         image: images4,
-        name: 'IT Stratgies',
+        name: 'INTEGRATION CONSULTANT',
         designation: 'LEARN MORE',
     },
 ]
@@ -37,7 +37,7 @@ const TeamThree = ({ column, teamStyle }) => {
         <div>
             <div className="row row--30">
                 {teamData.map((data, index) => (
-                    <div className={`${column}`} key={index}>
+                    <div className={`${column}`} key={index} style={{cursor: "pointer"}}>
                         <ScrollAnimation
                             animateIn="fadeInUp"
                             animateOut="fadeInOut"
@@ -48,7 +48,7 @@ const TeamThree = ({ column, teamStyle }) => {
                                         <img src={data.image} alt="Corporate React Template" />
                                     </figure>
                                     <figcaption className="content">
-                                        <h2 className="title">{data.name}</h2>
+                                        <h2 className="title" style={{fontSize: "17px"}}>{data.name}</h2>
                                         <h6 className="subtitle theme-gradient">{data.designation}</h6>
                                     </figcaption>
                                 </div>
@@ -58,8 +58,7 @@ const TeamThree = ({ column, teamStyle }) => {
                 ))}
             </div>
             <div className='mt-5 mb-0' style={{width: "auto", float: "inline-end"}}>
-
-                <Link className="btn-default btn-border" to="/WhatwedoMain">SEE ALL OUT SERVICE</Link>
+                <Link className="btn-default" to="/consulting/WhoweareMain">SEE ALL OUT SERVICE</Link>
             </div>
         </div>
     )

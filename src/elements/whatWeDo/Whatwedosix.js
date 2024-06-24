@@ -40,16 +40,16 @@ function Whatwedosix() {
                 <div className="consulting-image">
                     <img src={consulting_img} alt="Consulting Services" style={{height: "437px !important"}}/>
                 </div>
-                <div className="consulting-content" style={{ padding: '107px' }}>
-                    <h2>CONSULTING SERVICES</h2>
-                    <p>
+                <div className="consulting-content " style={{ padding: '107px' }}>
+                    <h2 className='theme-gradient'>CONSULTING SERVICES</h2>
+                    <p className='text-white'>
                         Navigate the complexities of your IT ecosystem with confidence. Our
                         technical experts and technology specialists are equipped with partner
                         certifications, industry knowledge and deep expertise to guide you
                         along the way.
                     </p>
                     <div className='d-flex justify-content-center'>
-                        <button className="explore-button">Explore consulting services</button>
+                        <button className="btn-default">Explore consulting services</button>
                     </div>
                 </div>
             </div>

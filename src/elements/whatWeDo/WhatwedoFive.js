@@ -25,7 +25,7 @@ function WhatwedoFive() {
                             <div className="col-lg-6 mt_md--40 mt_sm--40">
                                 <div className="content">
                                     <div className="inner">
-                                        <h3 className="title" >OUR SERVICE</h3>
+                                        <h3 className="title theme-gradient" >OUR SERVICE</h3>
                                         <ul className="feature-list">
                                             <li>
                                                 <div className="title-wrapper">
@@ -35,7 +35,7 @@ function WhatwedoFive() {
                                                         transformation journey</h4>
                                                     <p className="text" >Achieve your ambitious IT goals with EZ Consulting.
                                                     </p>
-                                                    <Button variant="warning" className="case-study-button" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Get a Customized solution</Button>
+                                                    <Button variant="warning" className="btn-default" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Get a Customized solution</Button>
                                                 </div>
                                             </li>
                                         </ul>
