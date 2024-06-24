@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from "./ContactForm";
 import GoogleMapStyle from "./GoogleMapStyle";
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const ContactOne = () => {
     return (
@@ -49,6 +50,9 @@ const ContactOne = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='d-flex justify-content-end mt-5 mb-0'>
+                    <Link className="btn-default" to="/consulting/contact">Contact</Link>
                 </div>
             </div>
 

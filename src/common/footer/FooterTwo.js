@@ -21,7 +21,7 @@ const FooterTwo = () => {
     return (
         <>
             <footer className="rn-footer footer-style-default variation-two">
-                <CalltoActionSeven />
+                {/* <CalltoActionSeven /> */}
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">

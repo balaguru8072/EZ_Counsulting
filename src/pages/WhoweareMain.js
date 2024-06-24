@@ -37,7 +37,7 @@ function WhoweareMain() {
                 <WhoweareTwo />
                 <Separator />
                 <WhoweareThree />
-                <Separator />
+                {/* <Separator /> */}
                 {/* <Whowearefour /> */}
                 <Separator />
                 <WhoweareFive />

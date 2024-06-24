@@ -1,6 +1,7 @@
 import React from 'react';
 import "../../assets/css/Servicess.css"
 import consulting_img from "../../assets/images/EZ Consulting What we do Page Images/Our Service.png"
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 function Whatwedosix() {
@@ -38,18 +39,18 @@ function Whatwedosix() {
             </div>
             <div className="consulting-container">
                 <div className="consulting-image">
-                    <img src={consulting_img} alt="Consulting Services" style={{height: "437px !important"}}/>
+                    <img src={consulting_img} alt="Consulting Services" style={{height: "437px"}}/>
                 </div>
-                <div className="consulting-content " style={{ padding: '107px' }}>
-                    <h2 className='theme-gradient'>CONSULTING SERVICES</h2>
-                    <p className='text-white'>
+                <div className="consulting-content " style={{ padding: '80px' }}>
+                    <h2 className='theme-gradient mb-4'>CONSULTING SERVICES</h2>
+                    <p className='text-white mb-5'>
                         Navigate the complexities of your IT ecosystem with confidence. Our
                         technical experts and technology specialists are equipped with partner
                         certifications, industry knowledge and deep expertise to guide you
                         along the way.
                     </p>
-                    <div className='d-flex justify-content-center'>
-                        <button className="btn-default">Explore consulting services</button>
+                    <div className='d-flex justify-content-center mt-5 '>
+                        <Link className="btn-default" to="/consulting/contact">Explore consulting services</Link>
                     </div>
                 </div>
             </div>

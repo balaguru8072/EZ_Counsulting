@@ -15,32 +15,32 @@ function InsightsOne({ column, teamStyle }) {
     const teamData = [
         {
             image: story1,
-            name: 'IT Stratgies',
+            name: 'ADAPTIVE CONSULTING',
             designation: 'READ MORE',
         },
         {
             image: story2,
-            name: 'IT Stratgies',
+            name: 'DATA SERVICES',
             designation: 'READ MORE',
         },
         {
             image: story3,
-            name: 'IT Stratgies',
+            name: 'CONSULTING SERVICES',
             designation: 'READ MORE',
         },
         {
             image: story2,
-            name: 'IT Stratgies',
+            name: 'INTEGRATION CONSULTANT',
             designation: 'READ MORE',
         },
     ]
     return (
         <div>
             <div className="row row--30">
-                <div className='d-flex justify-content-center'>
+                {/* <div className='d-flex justify-content-center'>
 
                     <Link className="btn-default" to="/contact">CONTACT US</Link>
-                </div>
+                </div> */}
                 {teamData.map((data, index) => (
                     <div className={`${column}`} key={index}>
                         <ScrollAnimation
@@ -55,7 +55,7 @@ function InsightsOne({ column, teamStyle }) {
                                         <img src={data.image} alt="Corporate React Template" />
                                     </figure>
                                     <figcaption className="content">
-                                        <h2 className="title">{data.name}</h2>
+                                        <h2 className="title" style={{fontSize: "17px"}}>{data.name}</h2>
                                         <h6 className="subtitle theme-gradient">{data.designation}</h6>
                                     </figcaption>
                                 </div>

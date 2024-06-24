@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import AboutFourImage from "../../assets/images/EZ Consulting What we do Page Images/Our service (2).png";
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 function WhatwedoFive() {
@@ -25,9 +26,9 @@ function WhatwedoFive() {
                             <div className="col-lg-6 mt_md--40 mt_sm--40">
                                 <div className="content">
                                     <div className="inner">
-                                        <h3 className="title theme-gradient" >OUR SERVICE</h3>
+                                        <h3 className="title theme-gradient" style={{paddingLeft: "13px"}}>OUR SERVICE</h3>
                                         <ul className="feature-list">
-                                            <li>
+                                            <li style={{paddingRight: "100px"}}>
                                                 <div className="title-wrapper">
                                                     <h4 className="title">Guidance and support from
                                                         true industry experts for the
@@ -35,7 +36,7 @@ function WhatwedoFive() {
                                                         transformation journey</h4>
                                                     <p className="text" >Achieve your ambitious IT goals with EZ Consulting.
                                                     </p>
-                                                    <Button variant="warning" className="btn-default" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Get a Customized solution</Button>
+                                                    <Link variant="warning" className="btn-default" to="/consulting/contact" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Get a Customized solution</Link>
                                                 </div>
                                             </li>
                                         </ul>

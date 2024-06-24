@@ -12,7 +12,7 @@ import Separator from "../elements/separator/Separator";
 import FooterOne from '../common/footer/FooterOne';
 import Copyright from '../common/footer/Copyright';
 import { HiArrowRight } from "react-icons/hi";
-import AboutFourImage from "../assets/images/home page/1.png";
+import AboutFourImage from "../assets/images/home page/abstract-business-people-city-buildings.jpg";
 import "../assets/css/slick.css"
 import TeamThree from '../elements/team/TeamThree';
 // import ServiceOne from '../elements/service/ServiceOne';
@@ -46,7 +46,7 @@ const Consulting = () => {
                                 <div className="inner text-start">
                                     <h3 className="title display-one">Grow Your Business with
                                         data-driven strategies</h3>
-                                    <p>We Help businesses of all sizes achieve sustainable
+                                    <p className='text-white'> We Help businesses of all sizes achieve sustainable
                                         growth through stratgies consulting and
                                         implementation</p>
                                     {/* <h6 className="tag-title">SOLUTION FOR YOUR BUSINESS</h6> */}

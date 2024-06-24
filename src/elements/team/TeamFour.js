@@ -3,10 +3,10 @@ import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import VideoTwo from '../video/VideoTwo';
-import consulting_img from "../../assets/images/home page/5.png";
-import newstartup_img from "../../assets/images/home page/9.png";
-import freelence_img from "../../assets/images/home page/8.png";
-import dentists_img from "../../assets/images/home page/7.png"
+import consulting_img from "../../assets/images/home page/client vdo image 1.jpg";
+import newstartup_img from "../../assets/images/home page/client vdo image 2.jpg";
+import freelence_img from "../../assets/images/home page/client vdo image 3.jpg";
+import dentists_img from "../../assets/images/home page/client vdo image 4.jpg"
 
 const teamData = [
     {

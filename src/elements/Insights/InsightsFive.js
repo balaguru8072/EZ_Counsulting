@@ -11,7 +11,7 @@ function InsightsFive() {
                             Schedule a call with our experts to discuss how Insight Consulting can tailor solutions to your specific needs.
                             Start your journey to data-driven success today.
                         </p>
-                        <a href="#" className="btn-default ">SCHEDULE NOW</a>
+                        <a href="/consulting/contact" className="btn-default ">SCHEDULE NOW</a>
                     </div>
                 </div>
             </div>

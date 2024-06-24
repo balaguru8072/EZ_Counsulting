@@ -3,10 +3,10 @@ import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import "../../assets/css/slick.css"
-import images1 from "../../assets/images/home page/3.png";
-import images2 from "../../assets/images/home page/4.png";
-import images3 from "../../assets/images/home page/5.png";
-import images4 from "../../assets/images/home page/6.png";
+import images1 from "../../assets/images/EZ Consulting What we do Page Images/what we do image 1 industries.jpg";
+import images2 from "../../assets/images/EZ Consulting What we do Page Images/what we do image 2 construction.jpg";
+import images3 from "../../assets/images/EZ Consulting What we do Page Images/what we do image 3 education.jpg";
+import images4 from "../../assets/images/EZ Consulting What we do Page Images/what we do image 4 finance.jpg";
 
 const teamData = [
     {

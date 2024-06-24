@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutFourImage from "../../assets/images/EZ Consulting What we do Page Images/Our Expertise.png";
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 function WhatwedoThree() {
@@ -25,7 +26,7 @@ function WhatwedoThree() {
                             <div className="content">
                                 <div className="inner">
                                     <h3 className="title theme-gradient" >AREAS OF EXPERTISE</h3>
-                                    <ul className="feature-list">
+                                    <ul className="feature-list" style={{paddingRight: "100px"}}>
                                         <li>
                                             <div className="title-wrapper">
                                                 <h4 className="title">Innovative, secure and
@@ -34,7 +35,7 @@ function WhatwedoThree() {
                                                     top challenges head on</h4>
                                                 <p className="text text-white" >Our IT experts are ready to take your business to the
                                                     next level, are you?</p>
-                                                <Button variant="warning" className="btn-default" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Hear from out team</Button>
+                                                <Link variant="warning" className="btn-default" to="/consulting/contact" style={{ fontSize: "medium", color: "white", fontWeight: "900" }}>Hear from out team</Link>
                                             </div>
                                         </li>
                                     </ul>

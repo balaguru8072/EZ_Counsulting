@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from 'react';
 import {Link} from "react-router-dom";
-import images_logos from "../../assets/images/Logos/CZ_consulting_logo.jpeg"
+import images_logos from "../../assets/images/Ez_logo-removebg-preview.png"
 
 const Logo = ({image, image2}) => {
     // const images_logo = require("../../assets/images/Logos/CZ_consulting_logo.jpeg")

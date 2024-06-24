@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowRight } from "react-icons/hi";
 import VideoTwo from '../video/VideoTwo';
 import { FiCheck } from "react-icons/fi";
-import AboutFourImage from "../../assets/images/home page/2.png";
+import AboutFourImage from "../../assets/images/home page/about  ez.jpg";
 
 
 const PopupData = [

@@ -6,6 +6,8 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 import ContactOne from "./ContactOne";
 import "../../assets/css/Contact.css"
 import HeaderTopBar from '../../common/header/HeaderTopBar';
+import ContactForm from './ContactForm';
+import GoogleMapStyle from './GoogleMapStyle';
 
 const Contact = () => {
     return (
@@ -71,6 +73,14 @@ const Contact = () => {
                                 </div>
                             </div>
                             <ContactOne />
+                        </div>
+                        <div className="container-fulid row mt--40 row--15" style={{padding: "27px"}}>
+                            <div className="col-lg-7">
+                                <ContactForm formStyle="contact-form-1" />
+                            </div>
+                            <div className="col-lg-5 mt_md--30 mt_sm--30">
+                                <GoogleMapStyle />
+                            </div>
                         </div>
                     </div>
                     {/* End Contact Area  */}

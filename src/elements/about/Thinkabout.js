@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowRight } from "react-icons/hi";
 import VideoTwo from '../video/VideoTwo';
 import { FiCheck } from "react-icons/fi";
-import AboutFourImage from "../../assets/images/home page/10.png";
+import AboutFourImage from "../../assets/images/home page/things u didnt know.jpg";
 
 
 const PopupData = [
@@ -35,8 +35,7 @@ const ThinkAbout = ({ image }) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title" style={{color: "#059DFF", fontWeight: "900", marginBottom: "0px"}}>Things you
-                                    didnt know !</h3>
+                                <h3 className="title" style={{color: "#059DFF", fontWeight: "900", marginBottom: "0px"}}>Things you <br/> <span className='text-white' style={{fontSize: "larger"}}>didnt know !</span></h3>
                                 <ul className="feature-list">
                                     <li>
                                         {/* <div className="icon">
@@ -44,7 +43,7 @@ const ThinkAbout = ({ image }) => {
                                         </div> */}
                                         <div className="title-wrapper" style={{width: "100%"}}>
                                             {/* <h4 className="title">A good traveler has no fixed plans</h4> */}
-                                            <p className="text">Interesting facts and stats
+                                            <p className="text text-white">Interesting facts and stats
                                                 about Ez Consluting</p>
                                         </div>
                                     </li>
